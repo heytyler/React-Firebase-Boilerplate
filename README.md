@@ -10,8 +10,13 @@ Simply drop in your Firebase config in the /src/config/fbConfig.js file and begi
 ## Deploying to Firebase
 
 **First, build your React application:**
+
 `npm run build`
+
 **Then, set up Firebase Hosting:**
+
 `firebase init` *Make sure hosting is selected. Firestore is already set up.*
+
 When given the option for your public directory, set this to **build**.
+
 `firebase deploy`
